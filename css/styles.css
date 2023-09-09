@@ -29,9 +29,7 @@ img {
   max-width: 100%;
   height: auto;
 }
-.header {
-  border-bottom: 1px solid #e7e9fc;
-}
+
 button {
   font-family: inherit;
   text-transform: capitalize;
@@ -56,6 +54,9 @@ button {
 }
 section {
   padding: 120px 0;
+}
+.header {
+  border-bottom: 1px solid #e7e9fc;
 }
 .header-inner {
   display: flex;
@@ -199,7 +200,7 @@ section {
 .adentege-item {
   display: flex;
   align-items: center;
-  flex-basis: calc((100% - 3 * 24px) / 4);
+  width: calc((100% - 3 * 24px) / 4);
 }
 .category {
   color: #2e2f42;
