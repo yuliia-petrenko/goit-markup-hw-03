@@ -50,8 +50,6 @@ button {
 .container {
   max-width: 1158px;
   margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 section {
   padding: 120px 0;
@@ -63,7 +61,7 @@ section {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 24px 0;
+  padding: 0 15px;
   margin: 0 auto;
 }
 .header-list {
@@ -98,7 +96,7 @@ section {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
-  padding: 24px;
+  padding: 24px 0;
 }
 .header-meny-list:hover {
   color: #404bbf;
@@ -201,7 +199,7 @@ section {
 .adentege-item {
   display: flex;
   align-items: center;
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 72px)) / 4;
 }
 .category {
   color: #2e2f42;
@@ -218,7 +216,7 @@ section {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-/* our team */
+/* our team section-3*/
 
 .team-section {
   background-color: #f4f4fd;
