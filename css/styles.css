@@ -193,10 +193,11 @@ section {
 .adventege-list {
   display: flex;
   gap: 24px;
-  margin: 0 auto;
+  margin: 0;
+  padding: 0;
 }
 .adventege-item {
-  flex-basis: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .category {
   color: #2e2f42;
@@ -234,13 +235,14 @@ section {
 .team-inner {
   display: flex;
   gap: 24px;
+  margin: 0;
+  padding: 0;
 }
 
 .team-frame {
   background-color: #ffffff;
-  padding-bottom: 32px;
+  flex-basis: calc((100% - 72px) / 4);
   border-radius: 0 0 4px 4px;
-  width: calc((100% - 72px) / 4);
 }
 .team-icon {
   margin-bottom: 32px;
@@ -288,12 +290,12 @@ section {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+  margin: 0;
+  padding: 0;
 }
 
 .portfolio-frame {
-  padding-bottom: 0px;
-  flex-shrink: 0;
-  margin-bottom: 48px;
+  margin-bottom: 8px;
   width: calc((100% - 48px) / 3);
 }
 .portfolio-list {
