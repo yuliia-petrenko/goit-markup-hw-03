@@ -196,9 +196,7 @@ section {
 
   margin: 0 auto;
 }
-.adentege-item {
-  display: flex;
-  align-items: center;
+.adventege-item {
   width: calc((100% - 72px) / 4);
 }
 .category {
@@ -245,6 +243,7 @@ section {
   background-color: #ffffff;
   padding-bottom: 32px;
   border-radius: 0 0 4px 4px;
+  max-width: 264px;
   width: calc((100% - 72px) / 4);
 }
 .team-icon {
