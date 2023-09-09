@@ -50,7 +50,8 @@ button {
 .container {
   max-width: 1158px;
   margin: 0 auto;
-  padding: 0 15px 0 15px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 section {
   padding: 120px 0;
@@ -200,7 +201,7 @@ section {
 .adentege-item {
   display: flex;
   align-items: center;
-  width: calc((100% - 3 * 24px) / 4);
+  width: calc((100% - 72px) / 4);
 }
 .category {
   color: #2e2f42;
