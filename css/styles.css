@@ -27,6 +27,8 @@ p {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 button {
@@ -234,14 +236,13 @@ section {
 .team-inner {
   display: flex;
   gap: 24px;
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 .team-frame {
   background-color: #ffffff;
   padding-bottom: 32px;
   border-radius: 0 0 4px 4px;
-  max-width: 264px;
-  flex-basis: calc((100% - 72px) / 4);
 }
 .team-icon {
   margin-bottom: 32px;
