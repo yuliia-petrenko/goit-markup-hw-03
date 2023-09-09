@@ -8,10 +8,11 @@ a {
   text-decoration: none;
 }
 ul {
-  list-style-type: none;
+  list-style: none;
   font-family: inherit;
-  margin: 0;
-  padding: 0;
+  margin-top: 0;
+  margin-left: 0;
+  padding-left: 0;
 }
 
 h1,
@@ -26,8 +27,6 @@ p {
 
 img {
   display: block;
-  max-width: 100%;
-  height: auto;
 }
 
 button {
@@ -218,7 +217,6 @@ section {
 
 .team-section {
   background-color: #f4f4fd;
-  text-align: center;
   color: #2e2f42;
   padding: 120px 0;
 }
@@ -236,7 +234,6 @@ section {
 .team-inner {
   display: flex;
   gap: 24px;
-  margin-right: 0;
 }
 
 .team-frame {
