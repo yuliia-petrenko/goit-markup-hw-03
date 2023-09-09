@@ -12,7 +12,6 @@ ul {
   font-family: inherit;
   margin-top: 0;
   margin-left: 0;
-  padding-left: 0;
 }
 
 h1,
@@ -236,13 +235,13 @@ section {
 .team-inner {
   display: flex;
   gap: 24px;
-  flex-basis: calc((100% - 72px) / 4);
 }
 
 .team-frame {
   background-color: #ffffff;
   padding-bottom: 32px;
   border-radius: 0 0 4px 4px;
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .team-icon {
   margin-bottom: 32px;
