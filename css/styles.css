@@ -277,7 +277,7 @@ section {
   color: var(--color-list);
   letter-spacing: 0.02em;
 }
-/* portfolio */
+/* portfolio section-4 */
 .portfolio-section {
   padding: 120px 0 120px 0;
 }
@@ -299,8 +299,8 @@ section {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-  margin: 0;
-  padding: 0;
+  margin: 0 auto;
+  padding: 0 auto;
 }
 
 .portfolio-frame {
